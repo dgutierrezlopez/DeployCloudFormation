@@ -9,7 +9,7 @@ on:
       env:
         description: 'Environemnt dev or pro'
         required: true
-        default: true
+        default: dev
         options: ['dev', 'pro']
 
 jobs:

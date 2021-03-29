@@ -18,6 +18,7 @@ jobs:
     env:
       KEYPAIR: dgl
     steps:
+      - uses: actions/checkout@v2
       - name: Configure AWS credentials
         id: creds
         uses: aws-actions/configure-aws-credentials@v1
@@ -43,7 +44,7 @@ jobs:
         uses: aws-actions/aws-cloudformation-github-deploy@v1.0.3
         with:
           name: test-ec2
-          template: test-template.yml
+          template: test-template.yaml
           no-fail-on-empty-changeset: 1
           parameter-overrides: >-
             InstanceType=${{ env.INSTANCE_TYPE }},

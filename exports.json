@@ -1,0 +1,237 @@
+[
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/platform-athena-query-results-bucket/1b0ce5f0-8265-11eb-973b-0256d00ae8bf",
+      "Name": "AthenaQueryResultsBucket--Arn",
+      "Value": "arn:aws:s3:::platform-athena-query-re-athenaqueryresultsbucket-13ufykfg7jq2g"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/platform-athena-query-results-bucket/1b0ce5f0-8265-11eb-973b-0256d00ae8bf",
+      "Name": "AthenaQueryResultsBucket--Name",
+      "Value": "platform-athena-query-re-athenaqueryresultsbucket-13ufykfg7jq2g"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/datalake-base-infraestructure-s3/2aa33a50-831e-11eb-bc20-0209ec2e0047",
+      "Name": "BusinessBucket--Arn",
+      "Value": "arn:aws:s3:::business-dev-cph"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/datalake-base-infraestructure-s3/2aa33a50-831e-11eb-bc20-0209ec2e0047",
+      "Name": "BusinessBucket--Name",
+      "Value": "business-dev-cph"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/custom-resource-include-bucket-notification/93727900-8266-11eb-adad-06f0a0237781",
+      "Name": "Custom--IncludeBucketNotification--Arn",
+      "Value": "arn:aws:lambda:eu-west-1:196336773538:function:IncludeBucketNotificationFunction"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/platform-custom-default-bucket/5509faf0-8264-11eb-a9ad-060df60dc2fd",
+      "Name": "DefaultDeployBucketLambda--Arn",
+      "Value": "arn:aws:s3:::platform-custom-default-defaultdeploybucketlambd-1i0vw24i77vcf"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/platform-custom-default-bucket/5509faf0-8264-11eb-a9ad-060df60dc2fd",
+      "Name": "DefaultDeployBucketLambda--Name",
+      "Value": "platform-custom-default-defaultdeploybucketlambd-1i0vw24i77vcf"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/platform-iot-certificates-default-bucket/45602a10-8265-11eb-8853-06fb9198ab4b",
+      "Name": "DefaultIotBucket--Arn",
+      "Value": "arn:aws:s3:::platform-iot-certificates-defaul-defaultiotbucket-r8smr2d18bbp"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/platform-iot-certificates-default-bucket/45602a10-8265-11eb-8853-06fb9198ab4b",
+      "Name": "DefaultIotBucket--Name",
+      "Value": "platform-iot-certificates-defaul-defaultiotbucket-r8smr2d18bbp"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "DefaultVPCId",
+      "Value": "vpc-0cbeef30b2fa1db7a"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/platform-custom-resource-iot-endpoint/799f1a70-8265-11eb-b28a-06cacdbbe755",
+      "Name": "IotEndpointAddress",
+      "Value": "a2f8qpo41xhi6t-ats.iot.eu-west-1.amazonaws.com"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/datalake-base-infraestructure-s3/2aa33a50-831e-11eb-bc20-0209ec2e0047",
+      "Name": "LandingBucket--Arn",
+      "Value": "arn:aws:s3:::landing-dev-cph"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/datalake-base-infraestructure-s3/2aa33a50-831e-11eb-bc20-0209ec2e0047",
+      "Name": "LandingBucket--Name",
+      "Value": "landing-dev-cph"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-NAT1EIP",
+      "Value": "54.229.190.244"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-NAT2EIP",
+      "Value": "52.214.76.76"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-NAT3EIP",
+      "Value": "54.155.3.72"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PrivateSubnet1ACIDR",
+      "Value": "172.31.64.0/20"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PrivateSubnet1AID",
+      "Value": "subnet-0cdfa1a18c8aa53f7"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PrivateSubnet1ARouteTable",
+      "Value": "rtb-0baa82db51518f269"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PrivateSubnet1BCIDR",
+      "Value": "172.31.48.0/20"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PrivateSubnet1BID",
+      "Value": "subnet-0fa64e7673eea1a24"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PrivateSubnet1BRouteTable",
+      "Value": "rtb-0c0e005a74b5b0927"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PrivateSubnet2ACIDR",
+      "Value": "172.31.32.0/20"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PrivateSubnet2AID",
+      "Value": "subnet-0ab49e07c53cee347"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PrivateSubnet2ARouteTable",
+      "Value": "rtb-0e675ba54de9e0956"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PrivateSubnet2BCIDR",
+      "Value": "172.31.16.0/20"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PrivateSubnet2BID",
+      "Value": "subnet-0a1da955ed0644dff"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PrivateSubnet2BRouteTable",
+      "Value": "rtb-00b3be1e131771f49"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PrivateSubnet3ACIDR",
+      "Value": "172.31.80.0/20"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PrivateSubnet3AID",
+      "Value": "subnet-0ad7475289960158b"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PrivateSubnet3ARouteTable",
+      "Value": "rtb-000be8d0fadb89d96"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PrivateSubnet3BCIDR",
+      "Value": "172.31.128.0/20"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PrivateSubnet3BID",
+      "Value": "subnet-0daf05a634f6513b6"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PrivateSubnet3BRouteTable",
+      "Value": "rtb-041a3955c8a7d70f0"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PublicSubnet1CIDR",
+      "Value": "172.31.96.0/20"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PublicSubnet1ID",
+      "Value": "subnet-03919b2b8a41c4777"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PublicSubnet2CIDR",
+      "Value": "172.31.112.0/20"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PublicSubnet2ID",
+      "Value": "subnet-030aad3db572c891d"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PublicSubnet3CIDR",
+      "Value": "172.31.0.0/20"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PublicSubnet3ID",
+      "Value": "subnet-08c130ca94d5031c7"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-PublicSubnetRouteTable",
+      "Value": "rtb-06dd885fdf497fa6e"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-S3VPCEndpoint",
+      "Value": "vpce-0030cc3a6c417af90"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70/23c81900-81d7-11eb-936b-029f95d0f5c3",
+      "Name": "StackSet-AWSControlTowerBP-VPC-ACCOUNT-FACTORY-V1-5ece9e0b-8cc8-4530-beb5-3f15a8091c70-VPCCIDR",
+      "Value": "172.31.0.0/16"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/datalake-base-infraestructure-s3/2aa33a50-831e-11eb-bc20-0209ec2e0047",
+      "Name": "StaggingBucket--Arn",
+      "Value": "arn:aws:s3:::stagging-dev-cph"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/datalake-base-infraestructure-s3/2aa33a50-831e-11eb-bc20-0209ec2e0047",
+      "Name": "StaggingBucket--Name",
+      "Value": "stagging-dev-cph"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/platform-scripts/cf9570b0-8264-11eb-9ad7-06c65a058401",
+      "Name": "bucket--Arn",
+      "Value": "arn:aws:s3:::platform-scripts-bucket-1houi1j8tpgpb"
+    },
+    {
+      "ExportingStackId": "arn:aws:cloudformation:eu-west-1:196336773538:stack/platform-scripts/cf9570b0-8264-11eb-9ad7-06c65a058401",
+      "Name": "bucket--Name",
+      "Value": "platform-scripts-bucket-1houi1j8tpgpb"
+    }
+  ]

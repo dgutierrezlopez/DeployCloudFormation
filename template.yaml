@@ -1,0 +1,85 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "MSK Kafka Cluster"
+
+Parameters:
+  pMSKName:
+    Description: Lambda Function Name
+    Type: String
+
+  pInstaceType:
+    Description: Instance Type
+    Type: String
+    Default: kafka.m5.large
+    AllowedValues:
+      - kafka.m5.large
+      - kafka.t3.small
+
+  pBrokerVolumeSize:
+    Description: Broker node volume size
+    Type: String
+    Default: 1500 
+
+  pNumberNodes:
+    Description: Number of the nodes
+    Type: Number
+    Default: 3
+
+  pSubnets:
+    Description: Choose which subnets the service will allow ingress
+    Type: List<AWS::EC2::Subnet::Id>
+  
+  pVPC:
+    Type: AWS::EC2::VPC::Id
+    Description: Choose which VPC this ECS cluster should be deployed to
+
+  CIDRAllowed:
+      Description: IP Address Range Allowed
+      Type: String
+
+Resources:
+  Kafka:
+    Type: AWS::MSK::Cluster
+    Properties: 
+      BrokerNodeGroupInfo: 
+          ClientSubnets: !Ref pSubnets
+          InstanceType: !Ref pInstaceType
+          SecurityGroups: 
+            - !Ref MSKSecurityGroup
+          StorageInfo: 
+            EBSStorageInfo: 
+              VolumeSize: !Ref pBrokerVolumeSize
+      ClusterName: !Ref pMSKName
+      EncryptionInfo: 
+          EncryptionInTransit: 
+            ClientBroker: TLS_PLAINTEXT
+            InCluster: false
+      EnhancedMonitoring: PER_TOPIC_PER_BROKER
+      KafkaVersion: 2.2.1
+      NumberOfBrokerNodes: !Ref pNumberNodes
+
+  MSKSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:                 
+      GroupDescription: MSK cluster Security Group
+      VpcId: !Ref pVPC
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: "9092"
+          ToPort: "9092"
+          CidrIp: !Ref CIDRAllowed
+        - IpProtocol: tcp
+          FromPort: "9094"
+          ToPort: "9094"
+          CidrIp: !Ref CIDRAllowed
+        - IpProtocol: tcp
+          FromPort: "2181"
+          ToPort: "2181"
+          CidrIp: !Ref CIDRAllowed
+                 
+Outputs:
+  Kafka:
+    Description: "Kafka ARN"
+    Value: !Ref Kafka
+  MSKSecurityGroup:
+    Description: "Kafka SecurityGroup"
+    Value: !GetAtt MSKSecurityGroup.GroupId
